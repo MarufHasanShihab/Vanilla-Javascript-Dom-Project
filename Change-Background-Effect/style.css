@@ -30,7 +30,6 @@ select{
     flex: 0 0 50%;
     align-items: center;
     justify-content: center;
-    background-color: #ff0000;
 }
 
 .card{
