@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 50px;
+}
+
+label {
+  font-size: 2rem;
+}
+select,
+option {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.selectBgColor {
+  margin-left: 30px;
+}
+
+.btn{
+    margin-left: 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.main{
+    margin-top: 50px;
+    font-size: 16px;
+    background-color: aqua;
+    padding: 20px;
+}
