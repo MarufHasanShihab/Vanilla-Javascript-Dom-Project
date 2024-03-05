@@ -54,3 +54,4 @@ selectFontSize.addEventListener("change", changeFontSize);
 selectBgColor.addEventListener("change", chageBgColor);
 resetButton.addEventListener("click", clearLocalStorage);
 initialSetup();
+
