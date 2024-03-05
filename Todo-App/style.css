@@ -27,7 +27,7 @@ html {
   background: #222;
   color: #fff;
   padding: 1rem;
-  overflow: auto;
+  overflow-y: scroll;
   border-radius: 0.6rem;
 }
 
@@ -56,7 +56,47 @@ html {
   cursor: pointer;
   transition: all 0.3s;
 }
-.addTodoBtn:hover{
-    background-color: #fff;
+.addTodoBtn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.li-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  margin: 1rem 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  transition: all 0.3s;
+}
+
+#deleteTodoBtn {
+  padding: 0.5rem;
+  background-color: orange;
+  color: red;
+  border: none;
+  border-radius: 0.4rem;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.bg-sucess{
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
     color: #000;
+    background: #ddffdd;
+    border-left: 6px solid #04aa6d;
+    border-radius: 0.6rem;
+}
+
+.bg-danger{
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
+    color: #000;
+    background: #ffdddd;
+    border-left: 6px solid #f44336;
+    border-radius: 0.6rem;
 }
