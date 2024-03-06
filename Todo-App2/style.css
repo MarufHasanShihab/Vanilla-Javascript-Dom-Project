@@ -99,7 +99,7 @@ ul li.checked::before {
   background-position: center;
 }
 
-ul li span {
+ul li span i {
   position: absolute;
   top: 5;
   right: 0;
@@ -111,9 +111,4 @@ ul li span {
   height: 40px;
   border-radius: 50%;
   transition: all 0.4s;
-}
-
-ul li span:hover {
-  background-color: #dfe6e9;
-  color: red;
 }
