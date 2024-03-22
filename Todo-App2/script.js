@@ -22,7 +22,7 @@ listContainer.addEventListener(
   "click",
   (e) => {
     if (e.target.tagName === "LI") {
-      e.target.classList.toggle("checked");
+      e.target.id.toggle("checked");
       setData()
     }else if(e.target.tagName === "I"){
       e.target.parentElement.parentElement.remove();
