@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark-And-Light-Toggle-Website-Design</title>
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Remix icons link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img class="logo" src="img/logo.png" alt="">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">HERE ME</a></li>
+            </ul>
+            <img src="img/moon.png" id="icon">
+        </nav>
+
+        <div class="info">
+            <h1>I'm <span>Kate</span> Amelia</h1>
+            <p>This is my offical portfolio website to showcase my all works related to web<br> development an UI Design</p>
+            <a href="">Download CV</a>
+        </div>
+
+        <div class="img_box">
+            <img src="img/pattern.png" class="back_img">
+            <img src="img/girl.png" class="main_img">
+        </div>
+
+        <div class="social_links">
+            <a href=""><i class="ri-linkedin-fill"></i></a>
+            <a href=""><i class="ri-behance-fill"></i></a>
+            <a href=""><i class="ri-dribbble-line"></i></a>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        const icon = document.getElementById("icon");
+        icon.onclick = function(){
+            document.body.classList.toggle("dark_theme");
+            if(document.body.classList.contains("dark_theme")){
+                icon.src = "img/sun.png"
+            }else{
+                icon.src = "img/moon.png"
+            }
+        }
+    </script>
+
+</body>
+</html>
